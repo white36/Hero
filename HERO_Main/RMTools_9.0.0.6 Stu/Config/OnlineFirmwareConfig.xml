@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <firmware_info name="powerboard">
+    <version version="9.0.0.1">
+      <name name="FQ1702_PM01_v09.00.00.01_20230331.encx"/>
+      <path path="https://rm-static.djicdn.com/documents/17348/5cfd3f7b5bf72168050931163863539.encx"/>
+      <description description="适配1.4版本串口协议"/>
+      <date date="2023-05-16"/>
+    </version>
+    <version version="5.0.2.7">
+      <name name="FW_PM01_5.0.2.7.encx"/>
+      <path path="https://rm-static.djicdn.com/documents/17348/bf5d2d1e9cfd61566218178731946522.encx"/>
+      <description description="2019电源管理模块固件"/>
+      <date date="2020-03-05"/>
+    </version>
+  </firmware_info>
+  <firmware_info name="uwb">
+    <version version="9.0.1.17">
+      <name name="FQ1702_UW01_v09.00.01.17_20230509.encx"/>
+      <path path="https://rm-static.djicdn.com/documents/17348/e4d0c3c0ea53e1683727819272632987.encx"/>
+      <description description="2023定位模块固件"/>
+      <date date="2023-05-10"/>
+    </version>
+  </firmware_info>
+  <firmware_info name="camera">
+    <version version="9.0.0.3">
+      <name name="FQ1702_VT02_v09.00.00.03_20230512.encx"/>
+      <path path="https://rm-static.djicdn.com/documents/17348/401e698636afb1684210033244329105.encx"/>
+      <description description="新增对冗余链路的支持"/>
+      <date date="2023-05-16"/>
+    </version>
+  </firmware_info>
+  <firmware_info name="strike">
+    <version version="9.0.0.17">
+      <name name="FQ1702_AM02_v09.00.00.17_20230413.packs"/>
+      <path path="https://rm-static.djicdn.com/documents/17348/a3fd57bd88d45168420981646782386.packs"/>
+      <description description="新增对2023新装甲装甲模块支持"/>
+      <date date="2023-05-16"/>
+    </version>
+  </firmware_info>
+  <firmware_info name="bloodbar">
+    <version version="6.1.0.3">
+      <name name="FQ1702_LB01_v06.01.00.03_20200321.encx"/>
+      <path path="https://rm-static.djicdn.com/documents/17348/91ae09e37db281585923546015918546.encx"/>
+      <description description="2020 灯条模块固件"/>
+      <date date="2020-04-03"/>
+    </version>
+  </firmware_info>
+  <firmware_info name="speedDetect">
+    <version version="6.1.0.9">
+      <name name="FQ1702_SM01_v06.01.00.09_20210507.encx"/>
+      <path path="https://rm-static.djicdn.com/documents/17348/d6eda8da099a21620659217232361188.encx"/>
+      <description description="2021测速模块固件"/>
+      <date date="2021-05-10"/>
+    </version>
+  </firmware_info>
+  <firmware_info name="capacitormanagement">
+    <version version="6.0.0.2">
+      <name name="FQ1702_CM02_v06.00.00.02_20201203.encx"/>
+      <path path="https://rm-static.djicdn.com/documents/17348/e66f57ba252971620659462768429888.encx"/>
+      <description description="2021电容管理模块"/>
+      <date date="2021-05-10"/>
+    </version>
+  </firmware_info>
+  <firmware_info name="mainboard">
+    <version version="9.0.0.9">
+      <name name="FQ1702_MC02_v09.00.00.09_20230513.encx"/>
+      <path path="https://rm-static.djicdn.com/documents/17348/3f313b76bb4311684210107145243274.encx"/>
+      <description description="新增对图传冗余链路和新装甲的支持"/>
+      <date date="2023-05-16"/>
+    </version>
+    <version version="9.0.0.5">
+      <name name="FQ1702_MC02_v09.00.00.05_20230413.encx"/>
+      <path path="https://rm-static.djicdn.com/documents/17348/2d6b7f1d36a031681440938305110307.encx"/>
+      <description description="修改图传信道，修复部分BUG"/>
+      <date date="2023-04-14"/>
+    </version>
+  </firmware_info>
+  <firmware_info name="YC1902_launcher">
+    <version version="01.01.04.51">
+      <name name="新版本hw04-华大芯片"/>
+      <path path=""/>
+      <description description=""/>
+      <date date="2023-01-09"/>
+    </version>
+    <version version="00.01.05.01">
+      <name name="旧版本hw03-STM32芯片"/>
+      <path path=""/>
+      <description description=""/>
+      <date date="2022-06-30"/>
+    </version>
+  </firmware_info>
+  <firmware_info name="YC1902_rear_armor">
+    <version version="00.06.06.00">
+      <name name="新版本hw03"/>
+      <path path=""/>
+      <description description=""/>
+      <date date="2022-02-11"/>
+    </version>
+    <version version="00.05.12.00">
+      <name name="旧版本hw02"/>
+      <path path=""/>
+      <description description=""/>
+      <date date="2023-03-02"/>
+    </version>
+  </firmware_info>
+  <firmware_info name="YC1902_front_armor">
+    <version version="00.06.06.00">
+      <name name="新版本hw03"/>
+      <path path=""/>
+      <description description=""/>
+      <date date="2022-02-11"/>
+    </version>
+    <version version="00.05.12.00">
+      <name name="旧版本hw02"/>
+      <path path=""/>
+      <description description=""/>
+      <date date="2023-03-02"/>
+    </version>
+  </firmware_info>
+  <firmware_info name="YC1902_left_armor">
+    <version version="00.06.06.00">
+      <name name="新版本hw03"/>
+      <path path=""/>
+      <description description=""/>
+      <date date="2022-02-11"/>
+    </version>
+    <version version="00.05.12.00">
+      <name name="旧版本hw02"/>
+      <path path=""/>
+      <description description=""/>
+      <date date="2023-03-02"/>
+    </version>
+  </firmware_info>
+  <firmware_info name="YC1902_right_armor">
+    <version version="00.06.06.00">
+      <name name="新版本hw03"/>
+      <path path=""/>
+      <description description=""/>
+      <date date="2022-02-11"/>
+    </version>
+    <version version="00.05.12.00">
+      <name name="旧版本hw02"/>
+      <path path=""/>
+      <description description=""/>
+      <date date="2023-03-02"/>
+    </version>
+  </firmware_info>
+  <firmware_info name="YC1902_motion_controller">
+    <version version="01.03.36.00">
+      <name name="YC1902_motion_controller"/>
+      <path path=""/>
+      <description description=""/>
+      <date date="2023-03-02"/>
+    </version>
+  </firmware_info>
+  <firmware_info name="RFID">
+    <version version="7.0.0.1">
+      <name name="FQ1702_FI01_v07.00.00.01_20220331.packs"/>
+      <path path="https://rm-static.djicdn.com/documents/17348/0424760fb246b1652879528493393938.packs"/>
+      <description description="支持新旧硬件RFID升级到7.0.0.1，优化多卡识别盲区"/>
+      <date date="2022-05-18"/>
+    </version>
+  </firmware_info>
+  <firmware_info name="YC1902_base_armor_2">
+    <version version="01.00.00.05">
+      <name name="YC1902_base_armor_2_hc"/>
+      <path path=""/>
+      <description description=""/>
+      <date date="2022-11-24"/>
+    </version>
+    <version version="00.06.11.20">
+      <name name="YC1902_base_armor_2_hw02"/>
+      <path path=""/>
+      <description description=""/>
+      <date date="2022-11-24"/>
+    </version>
+  </firmware_info>
+  <firmware_info name="YC1902_base_armor_3">
+    <version version="01.00.00.05">
+      <name name="YC1902_base_armor_3_hc"/>
+      <path path=""/>
+      <description description=""/>
+      <date date="2022-11-24"/>
+    </version>
+    <version version="00.06.11.20">
+      <name name="YC1902_base_armor_3_hw02"/>
+      <path path=""/>
+      <description description=""/>
+      <date date="2022-11-24"/>
+    </version>
+  </firmware_info>
+  <firmware_info name="YC1902_base_armor_1">
+    <version version="01.00.00.05">
+      <name name="YC1902_base_armor_1_hc"/>
+      <path path=""/>
+      <description description=""/>
+      <date date="2022-11-24"/>
+    </version>
+    <version version="00.06.11.20">
+      <name name="YC1902_base_armor_1_hw02"/>
+      <path path=""/>
+      <description description=""/>
+      <date date="2022-11-24"/>
+    </version>
+  </firmware_info>
+</root>

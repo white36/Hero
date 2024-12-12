@@ -1,0 +1,6 @@
+System.Exception
+无效机器人类别,机器人模块数量配置获取失败,可能原因：电源或主控升级中
+   在 RobotsConfig.GetRobotModuleNumConfig(Byte robot_type) 位置 D:\SoftProject\BitBucket\rmtool_wpf_2019\RMToolTest\Framework\RobotsConfig.cs:行号 172
+   在 Robot.CreateAllModule(RobotData rD) 位置 D:\SoftProject\BitBucket\rmtool_wpf_2019\RMToolTest\Logic\Update\Robot.cs:行号 53
+   在 Robot.UpdateRobotData(T_HEADER header, ACK_QEURYINFO info) 位置 D:\SoftProject\BitBucket\rmtool_wpf_2019\RMToolTest\Logic\Update\Robot.cs:行号 198
+   在 RobotManager.OnQueryInfo(RecvProtoEvent ev) 位置 D:\SoftProject\BitBucket\rmtool_wpf_2019\RMToolTest\Logic\Update\RobotManager.cs:行号 142

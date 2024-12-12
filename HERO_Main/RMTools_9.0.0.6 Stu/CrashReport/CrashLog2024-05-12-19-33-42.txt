@@ -1,0 +1,36 @@
+System.Configuration.ConfigurationErrorsException
+配置系统未能初始化
+   在 System.Configuration.ConfigurationManager.PrepareConfigSystem()
+   在 System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   在 System.Configuration.PrivilegedConfigurationManager.GetSection(String sectionName)
+   在 System.Net.Configuration.SettingsSectionInternal.get_Section()
+   在 System.Net.Sockets.Socket.InitializeSockets()
+   在 System.Net.IPAddress.InternalParse(String ipString, Boolean tryParse)
+   在 NetworkEntity..ctor() 位置 D:\SoftProject\BitBucket\rmtool_wpf_2019\RMToolTest\Framework\NetworkService\NetworkEntity.cs:行号 14
+   在 NetworkManager..ctor() 位置 D:\SoftProject\BitBucket\rmtool_wpf_2019\RMToolTest\Framework\NetworkService\NetworkManager.cs:行号 17
+   在 NetworkManager.get_Instance() 位置 D:\SoftProject\BitBucket\rmtool_wpf_2019\RMToolTest\Framework\NetworkService\NetworkManager.cs:行号 54
+   在 NetworkService.Init() 位置 D:\SoftProject\BitBucket\rmtool_wpf_2019\RMToolTest\Framework\NetworkService\NetworkService.cs:行号 25
+   在 ServiceManager.Init() 位置 D:\SoftProject\BitBucket\rmtool_wpf_2019\RMToolTest\Framework\ServiceManager.cs:行号 44
+   在 RMToolTest.App.OnStartup(StartupEventArgs e) 位置 D:\SoftProject\BitBucket\rmtool_wpf_2019\RMToolTest\App.xaml.cs:行号 55
+   在 System.Windows.Application.<.ctor>b__1_0(Object unused)
+   在 System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   在 System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)
+   在 System.Windows.Threading.DispatcherOperation.InvokeImpl()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 MS.Internal.CulturePreservingExecutionContext.Run(CulturePreservingExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Windows.Threading.DispatcherOperation.Invoke()
+   在 System.Windows.Threading.Dispatcher.ProcessQueue()
+   在 System.Windows.Threading.Dispatcher.WndProcHook(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   在 MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   在 MS.Win32.HwndSubclass.DispatcherCallbackOperation(Object o)
+   在 System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   在 System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)
+   在 System.Windows.Threading.Dispatcher.LegacyInvokeImpl(DispatcherPriority priority, TimeSpan timeout, Delegate method, Object args, Int32 numArgs)
+   在 MS.Win32.HwndSubclass.SubclassWndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam)
+   在 MS.Win32.UnsafeNativeMethods.DispatchMessage(MSG& msg)
+   在 System.Windows.Threading.Dispatcher.PushFrameImpl(DispatcherFrame frame)
+   在 System.Windows.Application.RunDispatcher(Object ignore)
+   在 System.Windows.Application.RunInternal(Window window)
+   在 RMToolTest.App.Main()

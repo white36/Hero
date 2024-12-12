@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <firmware_info name="mainboard">
+    <path path="./firmware/FQ1702_MC02_v09.00.00.09_20230513.encx" />
+    <version version="9.0.0.9" />
+  </firmware_info>
+  <firmware_info name="wireless">
+    <path path="" />
+    <version version="" />
+  </firmware_info>
+  <firmware_info name="strike">
+    <path path="./firmware/FQ1702_AM02_v09.00.00.17_20230413.packs" />
+    <version version="9.0.0.17" />
+  </firmware_info>
+  <firmware_info name="bloodbar">
+    <path path="./firmware/FQ1702_LB01_v06.01.00.03_20200321.encx" />
+    <version version="6.1.0.3" />
+  </firmware_info>
+  <firmware_info name="RFID">
+    <path path="./firmware/FQ1702_FI01_v07.00.00.01_20220331.packs" />
+    <version version="7.0.0.1" />
+  </firmware_info>
+  <firmware_info name="uwb">
+    <path path="./firmware/FQ1702_UW01_v09.00.01.17_20230509.encx" />
+    <version version="9.0.1.17" />
+  </firmware_info>
+  <firmware_info name="speedDetect">
+    <path path="./firmware/FQ1702_SM01_v06.01.00.09_20210507.encx" />
+    <version version="6.1.0.9" />
+  </firmware_info>
+  <firmware_info name="powerboard">
+    <path path="./firmware/FQ1702_PM01_v09.00.00.01_20230331.encx" />
+    <version version="9.0.0.1" />
+  </firmware_info>
+  <firmware_info name="camera">
+    <path path="./firmware/FQ1702_VT02_v09.00.00.03_20230512.encx" />
+    <version version="9.0.0.3" />
+  </firmware_info>
+  <firmware_info name="motor">
+    <path path="" />
+    <version version="" />
+  </firmware_info>
+  <firmware_info name="capacitormanagement">
+    <path path="./firmware/FQ1702_CM02_v06.00.00.02_20201203.encx" />
+    <version version="6.0.0.2" />
+  </firmware_info>
+</root>
