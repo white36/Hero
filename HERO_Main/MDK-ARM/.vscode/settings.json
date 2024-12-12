@@ -101,7 +101,8 @@
     },
     "files.associations": {
         "bsp_wd.h": "c"
-    } //在写包含形如{{xxx}}的标签的html文档时，也对标签进行缩进（更美观）
+    }, //在写包含形如{{xxx}}的标签的html文档时，也对标签进行缩进（更美观）
+    "terminal.integrated.cwd":"D:/RM/英雄/英雄代码当前"
 
 
 }
